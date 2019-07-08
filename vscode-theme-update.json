@@ -1,0 +1,184 @@
+{
+        "python.pythonPath"            : "C:\\Python36\\python.exe",
+        "editor.fontSize"              : 15,
+        "editor.wordWrap"              : "wordWrapColumn",
+        "workbench.colorTheme"         : "Monokai",
+        "workbench.colorCustomizations": {
+            "activityBar.background"                  : "#333842",
+            "activityBar.foreground"                  : "#D7DAE0",
+            "activityBarBadge.background"             : "#528BFF",
+            "activityBarBadge.foreground"             : "#D7DAE0",
+            "button.background"                       : "#4D78CC",
+            "button.foreground"                       : "#FFFFFF",
+            "button.hoverBackground"                  : "#6087CF",
+            "diffEditor.insertedTextBackground"       : "#00809B33",
+            "dropdown.background"                     : "#353b45",
+            "dropdown.border"                         : "#181A1F",
+            "editor.background"                       : "#0f293b",
+            "editor.lineHighlightBackground"          : "#2C313A",
+            "editor.selectionBackground"              : "#3E4451",
+            "editorCursor.foreground"                 : "#528BFF",
+            "editorGroup.border"                      : "#181A1F",
+            "editorGroupHeader.tabsBackground"        : "#21252B",
+            "editorIndentGuide.background"            : "#3C4049",
+            "editorLineNumber.foreground"             : "#636D83",
+            "editorWhitespace.foreground"             : "#3C4049",
+            "editorHoverWidget.background"            : "#21252B",
+            "editorHoverWidget.border"                : "#181A1F",
+            "editorSuggestWidget.background"          : "#21252B",
+            "editorSuggestWidget.border"              : "#181A1F",
+            "editorSuggestWidget.selectedBackground"  : "#2C313A",
+            "editorWidget.background"                 : "#21252B",
+            "input.background"                        : "#1B1D23",
+            "input.border"                            : "#181A1F",
+            "focusBorder"                             : "#528BFF",
+            "list.activeSelectionBackground"          : "#2C313A",
+            "list.activeSelectionForeground"          : "#D7DAE0",
+            "list.focusBackground"                    : "#2C313A",
+            "list.hoverBackground"                    : "#2C313A66",
+            "list.highlightForeground"                : "#D7DAE0",
+            "list.inactiveSelectionBackground"        : "#2C313A",
+            "list.inactiveSelectionForeground"        : "#D7DAE0",
+            "notification.background"                 : "#21252B",
+            "pickerGroup.border"                      : "#528BFF",
+            "scrollbarSlider.background"              : "#4E566680",
+            "scrollbarSlider.activeBackground"        : "#747D9180",
+            "scrollbarSlider.hoverBackground"         : "#5A637580",
+            "sideBar.background"                      : "#21252B",
+            "sideBarSectionHeader.background"         : "#333842",
+            "statusBar.background"                    : "#21252B",
+            "statusBar.foreground"                    : "#9DA5B4",
+            "statusBarItem.hoverBackground"           : "#2C313A",
+            "statusBar.noFolderBackground"            : "#21252B",
+            "tab.activeBackground"                    : "#282C34",
+            "tab.border"                              : "#181A1F",
+            "tab.inactiveBackground"                  : "#21252B",
+            "titleBar.activeBackground"               : "#21252B",
+            "titleBar.activeForeground"               : "#9DA5B4",
+            "titleBar.inactiveBackground"             : "#21252B",
+            "titleBar.inactiveForeground"             : "#9DA5B4",
+            "statusBar.debuggingForeground"           : "#FFFFFF",
+            "extensionButton.prominentBackground"     : "#2BA143",
+            "extensionButton.prominentHoverBackground": "#37AF4E",
+            "badge.background"                        : "#528BFF",
+            "badge.foreground"                        : "#D7DAE0",
+            "peekView.border"                         : "#528BFF",
+            "peekViewResult.background"               : "#21252B",
+            "peekViewResult.selectionBackground"      : "#2C313A",
+            "peekViewTitle.background"                : "#1B1D23",
+            "peekViewEditor.background"               : "#1B1D23"
+        },
+        "workbench.tree.indent"          : 14,
+        "workbench.iconTheme"            : "material-icon-theme",
+        "workbench.activityBar.visible"  : true,
+        "editor.tokenColorCustomizations": {
+            "[Monokai]": {
+                "textMateRules": 
+                [
+                    {
+                        "name"    : "decorator",
+                        "scope"   : "entity.name.function.decorator.python,meta.function.decorator.python, meta.function-call.arguments.python",
+                        "settings": {
+                            "foreground": "#f7adeb"
+                        }
+                    },
+                {
+                    "name"    : "Strings",
+                    "scope"   : "string.character.escape,string.quoted.single,string.quoted.double,string.type.declaration.annotation,string.template.quoted.punctuation.tag, storage.type, support.type",
+                    "settings": {
+                        "foreground": "#F0B67F"
+                    }
+                },
+                {
+                    "name"    : "Doc",
+                    "scope"   : "comment,string.quoted,comment.block.documentation",
+                    "settings": {
+                        "foreground": "#b49e7b"
+                    }
+                },
+                {
+                    "name"    : "Exceptions",
+                    "scope"   : "support.type.exception.python",
+                    "settings": {
+                        "foreground": "#00b7ff"
+                    }
+                },
+                
+                {
+                    "name"    : "import",
+                    "scope"   : "keyword.control.import",
+                    "settings": 
+                    {
+                        "foreground": "#D33682"
+                    },
+                },
+                {
+                    "name"    : "Storage type, class def",
+                    "scope"   : "storage,storage.type.class,storage.type.function,storage.modifier,storage.arrow,",
+                    "settings": {
+                      "foreground": "#8458f3"
+                    }
+                },
+
+                {
+                    "name"    : "Types, Class Types",
+                    "scope"   : "entity.name.type,meta.return.type,meta.type.annotation,meta.type.parameters,support.type.primitive, support.type.python",
+                    "settings": {
+                      "foreground": "#d64161"
+                    }
+                },
+                {
+                    "name"    : "Inherited class",
+                    "scope"   : "entity.other.inherited-class",
+                    "settings": {
+                      "foreground": "#ff7b25"
+                    }
+                },
+                {
+                    "name"    : "Function",
+                    "scope"   : "entity.name.function,other.name.function,entity.name, support.function.builtin.python, support.function.magic.python,meta.function-call.generic.python",
+                    "settings": {
+                      "foreground": "#FE5F55"
+                    }
+                },
+                {
+                    "name"    : "Number",
+                    "scope"   : "constant.numeric, constant.other.caps.python",
+                    "settings": {
+                      "foreground": "#7A9EC2"
+                    }
+                },
+                {
+                    "name"    : "args",
+                    "scope"   : "meta.function-call.arguments.python",
+                    "settings": {
+                      "foreground": "#ffffff"
+                    }
+                    
+                },
+
+                {
+                    "name"    : "Function arguments",
+                    "scope"   : "meta.parameter, variable.language",
+                    "settings": {
+                        "foreground": "#ff04dd",
+                        "fontStyle" : "italic"
+                    }
+                },
+                {
+                    "name"    : "Json arguments",
+                    "scope"   : "",
+                    "settings": {
+                        "foreground": "#ff04dd",
+                        "fontStyle" : "italic"
+                    }
+                },
+            ]    
+        }
+    },
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "svn.enableProposedApi": "none",
+    "python.jediEnabled": true,
+    "git.autofetch": true,
+}
